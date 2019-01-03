@@ -15,7 +15,7 @@ end
 end
 
 def find_the_cheese(strings)
-  hello = strings.split
+  hello = strings.split("")
   cheese_types = ["cheddar", "gouda", "camembert"]
   hello.find do |find|
     find.cheese_types
