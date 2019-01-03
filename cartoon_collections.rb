@@ -19,3 +19,4 @@ def find_the_cheese(strings)
   strings.find do |find|
     find.cheese_types
 end
+end
